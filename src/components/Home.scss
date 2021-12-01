@@ -1,0 +1,103 @@
+.home {
+
+    .profile {
+        border-radius: 100%;
+        margin-top: -50px;
+        border:10px transparent;
+        box-shadow: 4px -2px 1px #4e3b96;
+        
+    }
+
+    .figure-caption {
+        color: #fff;
+        display: block;
+
+        span {
+            display: block;
+        }
+            
+        path,
+        svg {
+            margin: .5rem 1rem;
+            font-size: 35px;
+        }
+    }
+
+    .fa-icons {
+        path,
+        svg {
+            margin-right: .5rem;
+            font-size: 25px;
+        }
+    }
+
+    .box {
+        background: #fff;
+        color: #666;
+    }
+
+    .nav-pills .nav-link.active, 
+    .nav-pills .show > .nav-link {
+        background: #4e3b96;
+    }
+
+    .nav-link, 
+    .nav-link:focus {
+        cursor: pointer;
+        outline: none;
+        color:  #fff;
+        text-shadow: 1px 1px 5px #f0f0f0;
+    }
+
+    .carousel-caption{
+        bottom: -35px;
+        font-weight: 900;
+
+        p {
+            background: #9c6086;
+            font-size: .775rem;
+            text-transform: uppercase;
+        }
+    } 
+
+    .card {
+        display: grid;
+        color: #666;
+        padding: 0 .8rem;
+        text-align: center;
+        height: 10.425rem;
+        align-items: center;
+
+        .card-title {
+            color: #4e3b96;
+            font-weight: 700;
+            text-decoration: underline;
+        }
+
+        p {
+            font-size: .775rem;
+            font-weight: 400;
+        }
+    }
+
+    a {
+        color: unset;
+        text-decoration: unset;
+    }
+
+    b {
+        font-weight: 900;
+        color: #000;
+    }
+}
+
+.fa-icons-text {
+    text-align: center;
+    line-height: 40px;
+}
+
+@media screen and (min-width: 900px) {
+    .fa-icons-text {
+        text-align: left;
+    }
+}

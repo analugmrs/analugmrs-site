@@ -1,0 +1,12 @@
+h1 {
+    font-size: 5.20rem;
+    font-weight: 300;
+    height: 170px;
+}
+
+@media screen and (min-width:576px) {
+    h1 {
+        font-size: 6.25rem;
+        height: unset;
+    }
+}
